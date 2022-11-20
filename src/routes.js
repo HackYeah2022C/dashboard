@@ -18,7 +18,7 @@ export default [
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/blog-overview" />
+    component: () => <Redirect to="/fakes" />
   },
   {
     path: "/blog-overview",
@@ -46,7 +46,7 @@ export default [
     component: ComponentsOverview
   },
   {
-    path: "/tables",
+    path: "/fakes",
     layout: DefaultLayout,
     component: Tables
   },
